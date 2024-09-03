@@ -17,7 +17,66 @@
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="assets/css/style.css">  
     <link href="assets/img/vft.png" rel="icon">	
+	<style>
+		/* Basic styles */
+		#product {
+		  padding: 60px 0;
+		  background-color: #f8f9fa; /* Light background color for the section */
+		}
+	  
+		.title {
+		  font-size: 2rem;
+		  font-weight: 700;
+		}
+	  
+		.services-card-shadow {
+		  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		  transition: transform 0.3s ease, box-shadow 0.3s ease;
+		}
+	  
+		.services-card-shadow:hover {
+		  transform: translateY(-10px);
+		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+		}
+	  
+		.service-icon {
+		  width: 100px; /* Fixed size for icons */
+		  height: auto;
+		  display: block;
+		  margin: 0 auto;
+		}
+	  
+		.h-100 {
+		  height: 100%;
+		}
+	  
+		.p-4 {
+		  padding: 1.5rem; /* Adjust padding for better spacing */
+		}
+	  
+		.text-primary {
+		  color: #007bff;
+		}
+	  
+		.lh-base {
+		  line-height: 1.5;
+		  font-size: 21px;
+    text-align: center;
+		}
+	  
+		@media (max-width: 767.98px) {
+		  .text-md-center {
+			text-align: center;
+		  }
+	  
+		  .p-md-5 {
+			padding: 15px !important; /* Adjust padding for small screens */
+		  }
+		}
+	  </style>
+	  
   </head>
+ 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   <a href="#" class="scrollup">scrollup</a>
   <div class="site-wrap">
@@ -121,6 +180,40 @@
     <!-- end of header -->
 	<br>
 	<!-- Header Row2 End -->
+	
+	<section id="product">
+		<div class="container">
+			<div class="col-md-12 text-center mb-4">
+				<h2 class="title text-primary mb-3 mt-3 pt-3">Our Service</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<div class="w-100 h-100 p-2 services-card-shadow rounded-4">
+						<img src="assets/img/icon/1.png" alt="Web and mobile application" class="service-icon">
+						<h3 class="mt-3 lh-base">Web and mobile application</h3>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="w-100 h-100 p-2 services-card-shadow rounded-4">
+						<img src="assets/img/icon/2.png" alt="IoT and IIot (product development)" class="service-icon">
+						<h3 class="mt-3 lh-base">IoT and IIot <br>(product development)</h3>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="w-100 h-100 p-2 services-card-shadow rounded-4">
+						<img src="assets/img/icon/3.png" alt="BPO" class="service-icon">
+						<h3 class="mt-3 lh-base">BPO</h3>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<div class="w-100 h-100 p-2 services-card-shadow rounded-4">
+						<img src="assets/img/icon/4.png" alt="Digital marketing" class="service-icon">
+						<h3 class="mt-3 lh-base">Digital marketing</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	
 			<div class="site-section " id="about-section">
 			  <div class="container">
