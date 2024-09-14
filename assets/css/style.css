@@ -1080,10 +1080,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: calc(14px + 1.875vw);
 }
 .technology-wrapper .technology-box {
-    background: linear-gradient(117.44deg,#202020 .77%,#393737);
-    min-height: 350px;
-    text-align: center;
-    padding: 38px 37px;
+  background: linear-gradient(117.44deg, #202020 .77%, #393737);
+  min-height: 330px;
+  text-align: center;
+  padding: 26px 28px;
 }
 .technology-wrapper .technology-box .technology-title {
     font-size: 20px;
@@ -1098,11 +1098,11 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
     opacity: .6;
     width: 80%;
-    margin: auto auto 60px;
+    margin: auto auto 17px;
     min-height: 130px;
 }
 .technology-wrapper .technology-box img {
-    height: 75px;
+    height: 60px;
 }
 .service-holder {
     margin: 25px 0;
