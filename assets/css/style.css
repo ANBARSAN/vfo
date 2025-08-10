@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 /* Base */
 
-
+.fa-twitter:before {
+    
+    content: "𝕏" !important;
+}
 body {
   line-height: 1.7;
   color: #000;
